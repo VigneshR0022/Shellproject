@@ -1,4 +1,4 @@
 #! /bin/bash 
-echo "this is my first project"
+echo "this is my first project1"
 echo "$hostname"
 echo "$uname -a"
