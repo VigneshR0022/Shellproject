@@ -1,4 +1,16 @@
-#! /bin/bash 
-echo "this is my first project1"
-echo "$hostname"
-echo "$uname -a"
+{
+   "defaults": {
+      "adapter": "postgres",
+      "host": "localhost"
+   },
+   "development": {
+      "database": "myapp_development",
+      "adapter": "postgres",
+      "host": "localhost"
+   },
+   "test": {
+      "database": "myapp_test",
+      "adapter": "postgres",
+      "host": "localhost"
+   }
+}
