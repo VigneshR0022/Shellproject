@@ -8,7 +8,7 @@
       "adapter": "postgres",
       "host": "localhost"
    },
-   "test": {
+   "qa": {
       "database": "myapp_test",
       "adapter": "postgres",
       "host": "localhost"
